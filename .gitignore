@@ -35,7 +35,7 @@
 ## Plugin-specific files:
 
 # IntelliJ
-/out/
+*/out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -49,4 +49,5 @@ crashlytics.properties
 crashlytics-build.properties
 
 # generated files
-/certs/
+*/dist/
+*.out
