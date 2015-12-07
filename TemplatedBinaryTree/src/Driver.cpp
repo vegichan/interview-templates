@@ -9,7 +9,9 @@
 //  Copyright © 2015 NuoDB. All rights reserved.
 //
 
-#include <iostream>
+
+#include <cstdio>
+#include <cstdlib>
 #include <memory>
 
 #include <set>

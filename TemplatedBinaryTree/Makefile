@@ -1,8 +1,8 @@
 OBJS = dist/obj/Driver.o
 CC = g++
 DEBUG = -g
-CFLAGS = -Wall -c $(DEBUG)
-LFLAGS = -Wall $(DEBUG)
+CFLAGS = -Wall -c -std=c++11 $(DEBUG)
+LFLAGS = -Wall -std=c++11 $(DEBUG)
 MKDIR_P = mkdir -p
 
 all: dist/obj dist/BinaryTree

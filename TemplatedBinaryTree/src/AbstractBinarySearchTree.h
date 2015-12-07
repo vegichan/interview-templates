@@ -15,7 +15,7 @@ public:
     virtual bool isEmpty() const = 0;
     virtual void insert(T) = 0;
     virtual bool search(T) = 0;
-    virtual int size() = 0;
+    virtual unsigned int size() = 0;
 };
 
 
