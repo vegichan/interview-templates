@@ -51,3 +51,6 @@ crashlytics-build.properties
 # generated files
 */dist/
 *.out
+
+# OS X folders
+.DS_Store
