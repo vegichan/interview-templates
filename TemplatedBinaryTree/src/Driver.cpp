@@ -63,7 +63,6 @@ const int SECOND_ELEMENT = 2;
 const int THIRD_ELEMENT = 3;
 const std::string STR_ELEMENT("abc");
 
-/*
 void testConstructor()
 {
     std::unique_ptr<AbstractBinarySearchTree<int> > b(new BinarySearchTree<int>());
@@ -140,14 +139,12 @@ void testStringTemplate()
     assert(!b->isEmpty());
     assert(b->search(STR_ELEMENT));
 }
-*/
 
 int main()
 {
 
     printf("Executing custom test suite for BinarySearchTree\n");
 
-    /*
     testConstructor();
     testSingleInsertion();
     testMultipleInsertions();
@@ -158,5 +155,4 @@ int main()
     testRandomInserts();
 
     testStringTemplate();
-    */
 }
