@@ -155,4 +155,6 @@ int main()
     testRandomInserts();
 
     testStringTemplate();
+
+    return 0;
 }

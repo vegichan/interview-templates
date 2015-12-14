@@ -28,8 +28,8 @@ class AbstractBinarySearchTree
 public:
     virtual bool isEmpty() const = 0;
     virtual void insert(T) = 0;
-    virtual bool search(T) = 0;
-    virtual unsigned int size() = 0;
+    virtual bool search(T) const = 0;
+    virtual unsigned int size() const = 0;
 
     virtual ~AbstractBinarySearchTree() {};
 };
